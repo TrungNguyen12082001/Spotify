@@ -29,7 +29,7 @@ const Sidebar: React.FC<SidebarProps> = ({ children, songs }) => {
       },
       {
         icon: BiSearch,
-        label: "Seach",
+        label: "Search",
         active: pathname === "/search",
         href: "/search",
       },
